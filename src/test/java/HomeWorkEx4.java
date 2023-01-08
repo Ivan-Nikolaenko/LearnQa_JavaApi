@@ -2,7 +2,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
-public class HomeWork1ex4 {
+public class HomeWorkEx4 {
     @Test
     public void testHelloWorld(){
         Response response = RestAssured
