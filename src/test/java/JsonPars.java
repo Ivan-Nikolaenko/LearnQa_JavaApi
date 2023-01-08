@@ -16,6 +16,7 @@ public class JsonPars {
                 .queryParams(params)
                 .get("https://playground.learnqa.ru/api/hello")
                 .jsonPath();
+
         String answer = response.get("answer");
         if (answer == null) {
             System.out.println("parameter not found");
