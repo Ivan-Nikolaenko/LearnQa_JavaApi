@@ -15,7 +15,5 @@ public class HomeWorkEx6 {
         response.prettyPrint();
         String locationHeader = response.getHeader("Location");
         System.out.println(locationHeader);
-
-
     }
 }
